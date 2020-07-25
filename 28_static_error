@@ -1,0 +1,8 @@
+class Main{  
+ int a=40;//non static  
+   
+ public static void main(String args[]){  
+   Main m=new Main();
+  System.out.println(a); //this and super cannot used in static context
+ }  
+}        
