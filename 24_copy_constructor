@@ -1,0 +1,22 @@
+class Main{  
+    int id;  
+    String name;  
+    //constructor to initialize integer and string  
+    Main(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    //constructor to initialize another object  
+    Main(Main s){  //copying values
+    id = s.id;  
+    name =s.name;  
+    }  
+    void display(){System.out.println(id+" "+name);}  
+   
+    public static void main(String args[]){  
+    Main s1 = new Main(1,"sakthi");  
+    Main s2 = new Main(s1);  
+    s1.display();  
+    s2.display();  
+   }  
+}  
