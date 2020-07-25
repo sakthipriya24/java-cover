@@ -1,0 +1,9 @@
+class Main{  
+//creating a default constructor  
+Main(){System.out.println("i am sakthi priya");}  
+//main method  
+public static void main(String args[]){  
+//calling a default constructor  
+Main m=new Main();  
+}  
+}  
