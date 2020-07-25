@@ -1,0 +1,9 @@
+class Main{    
+ int id=9; 
+ String name="priya";   
+ public static void main(String args[]){   
+  Main s1=new Main();//creating an object of Student class  
+  System.out.println(s1.id);//accessing member through reference variable  
+  System.out.println(s1.name);  
+ }  
+}  
