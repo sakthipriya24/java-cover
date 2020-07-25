@@ -1,0 +1,24 @@
+class Main{  
+    int id;  
+    String name;  
+    int age;  
+    //creating two arg constructor  
+    Main(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    //creating three arg constructor  
+    Main(int i,String n,int a){  
+    id = i;  
+    name = n;  
+    age=a;  
+    }  
+    void display(){System.out.println(id+" "+name+" "+age);}  
+   
+    public static void main(String args[]){  
+    Main s1 = new Main(1,"sakthi");  
+    Main s2 = new Main(2,"priya",24);  
+    s1.display();  
+    s2.display();  
+   }  
+} 
