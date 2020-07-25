@@ -1,0 +1,32 @@
+/*There are 8 types of primitive data types:
+
+boolean data type
+byte data type
+char data type
+short data type
+int data type
+long data type
+float data type
+double data type
+*/
+class Main{  
+public static void main(String[] args){    
+int num = 5;               // Integer (whole number)
+float floatnum = 5.99f;    // Floating point number
+char letter = 'D';         // Character
+boolean bool = true;       // Boolean
+String s = "Hello";     // String
+byte b = 100;             //byte
+short sh = 6;             //short
+long l = 4567890;         //long
+double db = 456.89076;      //double
+System.out.println(b);
+System.out.println(s);
+System.out.println(db);
+System.out.println(sh);
+System.out.println(l);
+System.out.println(num);
+System.out.println(floatnum);
+System.out.println(letter);
+System.out.println(bool);
+}}  
