@@ -1,9 +1,15 @@
 class Main{  
-//creating a default constructor  
-Main(){System.out.println("i am sakthi priya");}  
-//main method  
+int id;  
+String name;  
+//method to display the value of id and name  
+void display(){System.out.println(id+" "+name);}  
+  
 public static void main(String args[]){  
-//calling a default constructor  
-Main m=new Main();  
+//creating objects  
+Main s1=new Main();  
+Main s2=new Main();  
+//displaying values of the object  
+s1.display();  //prints 0 and null
+s2.display();  
 }  
-}  
+} 
