@@ -49,5 +49,5 @@ System.out.println(x);
 }  
 class Main{  
 public static void main(String args[]){  
-A a=new A(10);  
+Sample a=new Sample(10);  
 }}  
