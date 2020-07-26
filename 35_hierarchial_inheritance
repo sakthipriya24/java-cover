@@ -1,0 +1,16 @@
+class Books{  
+void read(){System.out.println("To kill a mocking bird");}  
+}  
+class Movie extends Books{  
+void seen(){System.out.println("Interstellar");}  
+}  
+class Blog extends Books{  
+void written(){System.out.println("My dreams! My world!");}  
+}  
+class Main{  
+public static void main(String args[]){  
+Blog d=new Blog();  
+d.written();  
+//d.seen();  shows error
+d.read();  
+}}  
