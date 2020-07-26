@@ -1,0 +1,13 @@
+//For Method Overriding (so runtime polymorphism can be achieved).
+//For Code Reusability.
+class Salary{  
+ float sal=40000;  
+}  
+class Engineer extends Salary{  
+ int bonus=1000;  
+ public static void main(String args[]){  
+   Engineer e=new Engineer();  
+   System.out.println("Engineer salary is:"+e.salary);  
+   System.out.println("Bonus given is:"+e.bonus);  
+}  
+}  
