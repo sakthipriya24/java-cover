@@ -1,0 +1,12 @@
+//return as a statement from the method
+class Sample{  
+Sample getSample(){  
+return this;  
+}  
+void msg(){System.out.println("i am sakthi priya");}  
+}  
+class Main{  
+public static void main(String args[]){  
+new Sample().getSample().msg();  
+}  
+}  
