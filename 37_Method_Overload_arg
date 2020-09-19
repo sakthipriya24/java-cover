@@ -1,0 +1,9 @@
+class Marks{  
+static int tot(int a,int b){return a+b;}  
+static int tot(int a,int b,int c){return a+b+c;}  
+}  
+class Main{  
+public static void main(String[] args){  
+System.out.println(Marks.tot(92,89));  
+System.out.println(Marks.tot(70,78,98));  
+}}  
